@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "@orion/ui-tokens/theme.css";
+
+@theme inline {
+  --color-background: var(--orion-background);
+  --color-surface: var(--orion-surface);
+  --color-surface-elevated: var(--orion-surface-elevated);
+  --color-border: var(--orion-border);
+  --color-foreground: var(--orion-foreground);
+  --color-muted: var(--orion-muted);
+  --color-accent: var(--orion-accent);
+  --color-accent-muted: var(--orion-accent-muted);
+  --color-danger: var(--orion-danger);
+  --color-warning: var(--orion-warning);
+  --font-sans: var(--font-ibm-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), ui-monospace, monospace;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}

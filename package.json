@@ -1,0 +1,29 @@
+{
+  "name": "orion",
+  "private": true,
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:apps": "turbo run dev --filter=@orion/web --filter=@orion/mobile",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test && pnpm db:test",
+
+    "build": "turbo run build",
+    "format": "prettier --write .",
+    "db:types": "supabase gen types typescript --local > packages/db/src/database.types.ts",
+    "db:test": "supabase test db",
+    "db:reset": "supabase db reset --yes"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "supabase": "^2.20.12",
+    "turbo": "^2.5.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  },
+
+  "engines": {
+    "node": ">=20"
+  }
+}

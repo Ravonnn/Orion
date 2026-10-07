@@ -1,0 +1,48 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# builds
+dist
+.next
+.expo
+out
+web-build
+*.tsbuildinfo
+
+# env
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# tooling
+.turbo
+.vercel
+coverage
+*.log
+npm-debug.log*
+.DS_Store
+
+# supabase
+supabase/.branches
+supabase/.temp
+
+# IDE
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# native
+ios
+android
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# tests
+playwright-report
+test-results

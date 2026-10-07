@@ -1,0 +1,13 @@
+/* Shared Orion design tokens — keep in sync with src/index.ts */
+:root {
+  --orion-background: #0b0d10;
+  --orion-surface: #141820;
+  --orion-surface-elevated: #1c2230;
+  --orion-border: #2a3344;
+  --orion-foreground: #f4f6fa;
+  --orion-muted: #9aa3b5;
+  --orion-accent: #3ddc97;
+  --orion-accent-muted: #2a9b6a;
+  --orion-danger: #f07178;
+  --orion-warning: #e6c07b;
+}

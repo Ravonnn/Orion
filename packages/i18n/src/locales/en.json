@@ -1,0 +1,38 @@
+{
+  "app": {
+    "name": "Orion",
+    "tagline": "Your Spotify companion"
+  },
+  "nav": {
+    "home": "Home",
+    "recents": "Recents",
+    "playlists": "Playlists",
+    "charts": "Charts",
+    "friends": "Friends"
+  },
+  "home": {
+    "title": "Home",
+    "placeholder": "Foundations are in place. Sign-in and sync come next.",
+    "language": "Language"
+  },
+  "recents": {
+    "title": "Recents",
+    "placeholder": "Recent plays will show up here."
+  },
+  "playlists": {
+    "title": "Playlists",
+    "placeholder": "Smart and Spotify playlists will live here."
+  },
+  "charts": {
+    "title": "Charts",
+    "placeholder": "Listening stats and charts will live here."
+  },
+  "friends": {
+    "title": "Friends",
+    "placeholder": "Your small circle will show up here."
+  },
+  "language": {
+    "en": "English",
+    "nl": "Nederlands"
+  }
+}

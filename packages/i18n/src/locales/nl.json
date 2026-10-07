@@ -1,0 +1,38 @@
+{
+  "app": {
+    "name": "Orion",
+    "tagline": "Jouw Spotify-companion"
+  },
+  "nav": {
+    "home": "Home",
+    "recents": "Recent",
+    "playlists": "Afspeellijsten",
+    "charts": "Grafieken",
+    "friends": "Vrienden"
+  },
+  "home": {
+    "title": "Home",
+    "placeholder": "De basis staat. Inloggen en sync komen hierna.",
+    "language": "Taal"
+  },
+  "recents": {
+    "title": "Recent",
+    "placeholder": "Recente nummers verschijnen hier."
+  },
+  "playlists": {
+    "title": "Afspeellijsten",
+    "placeholder": "Slimme en Spotify-afspeellijsten komen hier."
+  },
+  "charts": {
+    "title": "Grafieken",
+    "placeholder": "Luisterstatistieken en grafieken komen hier."
+  },
+  "friends": {
+    "title": "Vrienden",
+    "placeholder": "Jouw kleine kring verschijnt hier."
+  },
+  "language": {
+    "en": "English",
+    "nl": "Nederlands"
+  }
+}
